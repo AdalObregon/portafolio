@@ -6,86 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
-<style>
-    body {
-        font-family: Georgia, 'Times New Roman', Times, serif
-    }
-
-    thead {
-        color: rgb(102, 102, 102);
-    }
-
-    tbody {
-        color: rgb(11, 11, 75);
-    }
-
-    tfoot {
-        color: red;
-    }
-
-    table,
-    th,
-    td {
-        border: 1px solid rgb(116, 116, 116);
-    }
-</style>
-
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miercoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-        </thead>
 
-        <tbody>
-            <!--1ST ROW-->
-            <tr>
-                <td>INTRO-WEB-2</td>
-                <td>INTRO WEB-3</td>
-                <td>INTRO-WEB-4</td>
-                <td>INTRO-WEB-5</td>
-                <td>INTRO-WEB-6</td>
-            </tr>
-            <!--2ND ROW-->
-            <tr>
-                <td>INTROWEB-2</td>
-                <td>EE-PW2</td>
-                <td>EE-40 entrevistas</td>
-                <td>INTRO-WEB-5</td>
-                <td>INTRO-WEB-6</td>
-            </tr>
-            <!--3RD ROW-->
-            <tr>
-                <td>Descanso</td>
-                <td>Descanso</td>
-                <td>Descanso</td>
-                <td>Descanso</td>
-                <td>Descanso</td>
-            </tr>
-            <!--4TH ROW-->
-            <tr>
-                <td>INTRO-WEB-3</td>
-                <td>INTRO-WEB-4</td>
-                <td>INTRO-WEB-5</td>
-                <td>SSM-WT</td>
-                <td>SSM-ISE</td>
-            </tr>
-            <tr>
-                <td>INTRO-WEB-3</td>
-                <td>SA-EE3</td>
-                <td>INTRO-WEB-5</td>
-                <td>INTRO-WEB-6</td>
-                <td>BSM-CH2</td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Hacemos divisor para nuestro navbar -->
+    <div class="navbar">
+        <!-- Etiqueta de navbar  -->
+        <nav>
+            <!-- Divisor para nuestro logo -->
+            <div class="logo">
+                Logo
+            </div>
+            <!-- Divisor para nuestros links -->
+            <div class="links">
+                <a href="">Tecnologias</a>
+                <a href="">Contacto</a>
+                <a href="">Redes Sociales</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="contact__container">
+        <h2 class="contact__title">Get in touch 👋</h2>
+        <form class="contact">
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Jane Cooper" id="name">
+            <label for="phone">Telefono</label>
+            <input type="tel" placeholder="(406) 555-0120" id="phone">
+            <label for="email">Your Email</label>
+            <input type="email" placeholder="jane.cooper@example.com" id="email">
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+        </form>
+            <button class="button__submit" type="submit">Just Send<i class="ri-arrow-right-up-line"></i></button>
+    </div>
+    </div>
+    <div>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/adal-obregon/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://www.instagram.com/adalobregon/" target="_blank"><i class="ri-instagram-fill"></i></a>
+            <a href="https://dribbble.com/adalobre98" target="_blank"><i class="ri-dribbble-line"></i></a>
+            <a href="https://github.com/AdalObregon" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="mailto:adalobregoon@gmail.com" target="_blank"><i class="ri-mail-fill"></i></a>
+
+        </div>
+    </div>
+
 </body>
 
 </html>
